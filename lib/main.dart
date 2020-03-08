@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-
-import 'components/speech_bubble.dart';
+import 'package:flutter_app/components/dot_animation_box.dart';
+import 'package:flutter_app/components/speech_bubble.dart';
 
 void main() {
   runApp(App());
 }
 
 class App extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -33,6 +32,7 @@ class _ChatPageState extends State<ChatPage> {
       backgroundColor: Color(0xffc11526),
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SpeechBubble(
               text: 'ピンク',
@@ -54,6 +54,7 @@ class _ChatPageState extends State<ChatPage> {
               text: 'オレンジ',
               imageColor: Colors.orange,
             ),
+            DotAnimationBox(),
           ],
         ),
       ),
