@@ -1,16 +1,12 @@
-# flutter_app
+# p5_like_speech_bubble
 
 A new Flutter application.
 
-## Getting Started
+# Flutter Version
+1.15.18
 
-This project is a starting point for a Flutter application.
+# 注意
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Atlus社様から怒れる可能性もありますので、
+ご使用は自己責任でお願いいたします。
+また問題があれば、このリポジトリは削除します。
